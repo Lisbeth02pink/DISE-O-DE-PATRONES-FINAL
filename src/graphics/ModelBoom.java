@@ -1,0 +1,20 @@
+package graphics;
+
+public class ModelBoom {
+
+    private double size;
+    private float angle;
+
+    public ModelBoom(double size, float angle) {
+        this.size = size;
+        this.angle = angle;
+    }
+
+    public double getSize() {
+        return size;
+    }
+
+    public float getAngle() {
+        return angle;
+    }
+}
